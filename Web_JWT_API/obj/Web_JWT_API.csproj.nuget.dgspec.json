@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\himus\\Source\\Repos\\Web_JWT_API\\Web_JWT_API\\Web_JWT_API.csproj": {}
+    "C:\\Users\\user\\Source\\Repos\\kamalstis1009\\Web_JWT_API\\Web_JWT_API\\Web_JWT_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\himus\\Source\\Repos\\Web_JWT_API\\Web_JWT_API\\Web_JWT_API.csproj": {
+    "C:\\Users\\user\\Source\\Repos\\kamalstis1009\\Web_JWT_API\\Web_JWT_API\\Web_JWT_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\himus\\Source\\Repos\\Web_JWT_API\\Web_JWT_API\\Web_JWT_API.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\kamalstis1009\\Web_JWT_API\\Web_JWT_API\\Web_JWT_API.csproj",
         "projectName": "Web_JWT_API",
-        "projectPath": "C:\\Users\\himus\\Source\\Repos\\Web_JWT_API\\Web_JWT_API\\Web_JWT_API.csproj",
-        "packagesPath": "C:\\Users\\himus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\himus\\Source\\Repos\\Web_JWT_API\\Web_JWT_API\\obj\\",
+        "projectPath": "C:\\Users\\user\\Source\\Repos\\kamalstis1009\\Web_JWT_API\\Web_JWT_API\\Web_JWT_API.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Source\\Repos\\kamalstis1009\\Web_JWT_API\\Web_JWT_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\himus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

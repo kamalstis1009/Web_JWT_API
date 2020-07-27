@@ -26,7 +26,7 @@ namespace Web_JWT_API.Controllers
         public ProductController(IProductService service, IOptions<JWTSettings> jwtsettings)
         {
             _service = service; //dependency injection
-            _jwtsettings = (JWTSettings)jwtsettings;
+            _jwtsettings = jwtsettings;
         }
 
         //======================================================| GET
