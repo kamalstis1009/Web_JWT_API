@@ -110,3 +110,13 @@ C:\Users\user\Source\Repos\kamalstis1009\Web_JWT_API\Web_JWT_API\obj\Debug\netco
 C:\Users\user\Source\Repos\kamalstis1009\Web_JWT_API\Web_JWT_API\obj\Debug\netcoreapp3.1\Web_JWT_API.dll
 C:\Users\user\Source\Repos\kamalstis1009\Web_JWT_API\Web_JWT_API\obj\Debug\netcoreapp3.1\Web_JWT_API.pdb
 C:\Users\user\Source\Repos\kamalstis1009\Web_JWT_API\Web_JWT_API\obj\Debug\netcoreapp3.1\Web_JWT_API.genruntimeconfig.cache
+C:\Users\user\Source\Repos\kamalstis1009\Web_JWT_API\Web_JWT_API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\user\Source\Repos\kamalstis1009\Web_JWT_API\Web_JWT_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\Source\Repos\kamalstis1009\Web_JWT_API\Web_JWT_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\Source\Repos\kamalstis1009\Web_JWT_API\Web_JWT_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\user\Source\Repos\kamalstis1009\Web_JWT_API\Web_JWT_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\user\Source\Repos\kamalstis1009\Web_JWT_API\Web_JWT_API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\Source\Repos\kamalstis1009\Web_JWT_API\Web_JWT_API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\user\Source\Repos\kamalstis1009\Web_JWT_API\Web_JWT_API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\user\Source\Repos\kamalstis1009\Web_JWT_API\Web_JWT_API\obj\Debug\netcoreapp3.1\Web_JWT_API.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\kamalstis1009\Web_JWT_API\Web_JWT_API\obj\Debug\netcoreapp3.1\Web_JWT_API.MvcApplicationPartsAssemblyInfo.cache

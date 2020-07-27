@@ -43,6 +43,7 @@ namespace Web_JWT_API
             //======================================================| Dependency injection
             //services.AddSingleton<IProductService, ProductService>();
             services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IAuthenticateService, AuthenticateService>();
 
             //======================================================| Jwt Security
             var jwtSection = Configuration.GetSection("JWTSettings");

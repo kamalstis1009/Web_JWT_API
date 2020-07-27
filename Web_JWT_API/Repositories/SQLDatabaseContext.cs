@@ -16,6 +16,7 @@ namespace SSL_eCommerce.Repositories
 
         //All tables create in database using entity framework
         public DbSet<Product> MIS_Product { get; set; }
+        public DbSet<Authenticate> MIS_Authenticate { get; set; }
 
         //You can use appsettings.json Or below this
         /*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

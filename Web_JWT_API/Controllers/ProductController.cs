@@ -1,15 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Security.Claims;
-using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
 using SSL_MIS_API.Models;
 using Web_JWT_API.Models;
 using Web_JWT_API.Services;
@@ -26,7 +19,7 @@ namespace Web_JWT_API.Controllers
         public ProductController(IProductService service, IOptions<JWTSettings> jwtsettings)
         {
             _service = service; //dependency injection
-            _jwtsettings = jwtsettings;
+            _jwtsettings = jwtsettings.Value;
         }
 
         //======================================================| GET
@@ -43,6 +36,7 @@ namespace Web_JWT_API.Controllers
         }
 
         //======================================================| ADD
+        [Authorize]
         [HttpPost("AddObject")]
         public async Task<IActionResult> AddObject([FromBody] Product model)
         {
@@ -88,23 +82,7 @@ namespace Web_JWT_API.Controllers
             return NotFound();
         }
 
-        //======================================================| JWT SECURITY
-        private string GenerateAccessToken(int id)
-        {
-            var tokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(_jwtsettings.SecretKey);
-            var tokenDescriptor = new SecurityTokenDescriptor
-            {
-                Subject = new ClaimsIdentity(new Claim[]
-                {
-                    new Claim(ClaimTypes.Name, Convert.ToString(id))
-                }),
-                Expires = DateTime.UtcNow.AddDays(1),
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key),
-                SecurityAlgorithms.HmacSha256Signature)
-            };
-            var token = tokenHandler.CreateToken(tokenDescriptor);
-            return tokenHandler.WriteToken(token);
-        }
+        
+
     }
 }
